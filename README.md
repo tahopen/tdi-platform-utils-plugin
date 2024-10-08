@@ -1,4 +1,4 @@
-# pdi-platform-utils-plugin #
+# tdi-platform-utils-plugin #
 _Collection of kettle steps to interact with BA Server services._
 
 * Maven, version 3+
