@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.tahopen</groupId>
+    <artifactId>tdi-platform-utils-plugin-parent</artifactId>
+    <version>0.1.0.0-SNAPSHOT</version>
+  </parent>
+
+  <groupId>org.tahopen</groupId>
+  <artifactId>tdi-platform-utils-plugin-core</artifactId>
+  <version>0.1.0.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Tahopen Community Edition Project: ${project.artifactId}</name>
+  <description>Tahopen Platform Utils Plugin Core</description>
+  <url>http://www.tahopen.org</url>
+
+  <properties>
+    <timestamp>${maven.build.timestamp}</timestamp>
+    <maven.build.timestamp.format>yyyy/MM/dd hh:mm</maven.build.timestamp.format>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+        <filtering>false</filtering>
+      </resource>
+      <resource>
+        <directory>src/main/resources-filtered</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+  </build>
+</project>
