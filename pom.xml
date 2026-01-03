@@ -6,12 +6,12 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tahopen-ce-jar-parent-pom</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <groupId>org.tahopen</groupId>
   <artifactId>tdi-platform-utils-plugin-parent</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>pom</packaging>
 
   <name>Tahopen Community Edition Project: ${project.artifactId}</name>
@@ -38,9 +38,9 @@
     <eula-wrap_attach-dist-phase />
 
     <!-- 'COMPILE' SCOPED DEPS -->
-    <platform.version>0.1.0.0-SNAPSHOT</platform.version>
-    <pdi.version>0.1.0.0-SNAPSHOT</pdi.version>
-    <metastore.version>0.1.0.0-SNAPSHOT</metastore.version>
+    <platform.version>0.1.0.0</platform.version>
+    <pdi.version>0.1.0.0</pdi.version>
+    <metastore.version>0.1.0.0</metastore.version>
 
     <javax.servlet-api.version>3.0.1</javax.servlet-api.version>
     <jersey-servlet.version>1.19.1</jersey-servlet.version>

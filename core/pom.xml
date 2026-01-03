@@ -6,12 +6,12 @@
   <parent>
     <groupId>org.tahopen</groupId>
     <artifactId>tdi-platform-utils-plugin-parent</artifactId>
-    <version>0.1.0.0-SNAPSHOT</version>
+    <version>0.1.0.0</version>
   </parent>
 
   <groupId>org.tahopen</groupId>
   <artifactId>tdi-platform-utils-plugin-core</artifactId>
-  <version>0.1.0.0-SNAPSHOT</version>
+  <version>0.1.0.0</version>
   <packaging>jar</packaging>
 
   <name>Tahopen Community Edition Project: ${project.artifactId}</name>
