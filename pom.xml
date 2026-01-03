@@ -78,8 +78,8 @@
     </dependency>
 
     <dependency>
-      <groupId>pentaho</groupId>
-      <artifactId>pentaho-platform-api</artifactId>
+      <groupId>org.tahopen</groupId>
+      <artifactId>tahopen-platform-api</artifactId>
       <version>${platform.version}</version>
       <exclusions>
         <exclusion>
